@@ -1,0 +1,20 @@
+.menu {
+  position: absolute;
+  width: 132px;
+  height: 853.12px;
+  left: 32.34px;
+  top: 24.02px;
+}
+
+p {
+  position: absolute;
+  width: 47px;
+  height: 102px;
+  left: 74.46px;
+  top: 39.67px;
+
+  font-family: Baloo Bhai;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+}
