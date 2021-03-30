@@ -2,7 +2,7 @@
 
 # Ed Tech Landing Page
 
-
+## note : After Launching the demo, please refresh once if found unresponsive.
 
 # Tech Used
 ### 1.React
@@ -11,7 +11,7 @@
 
 # Features
 ### 1.Responsive
-### 2.Progressive Web App
+### 2.Progressive Web App ( Works offline + we can add it to home screen)
 ### 3.Minimilistic Ui
 
 ## Installation
