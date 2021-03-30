@@ -16,8 +16,12 @@ const Container = styled.div`
   flex-direction: column;
   border-radius: 15px;
   @media (max-width: 768px) {
-    padding:2rem;
-    margin-left:-10px;
+    margin-left: -30px;
+    padding: 0;
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
   }
 `;
 const SubContainer1 = styled.div`
@@ -72,8 +76,9 @@ const Illustration = styled.div`
   height: 200px;
   width: 200px;
   @media (max-width: 768px) {
-    padding: 1rem 0;
-    margin-right:-50px;
+    padding-bottom: 2rem;
+    height: 280px;
+    width: 170px;
   }
 `;
 
