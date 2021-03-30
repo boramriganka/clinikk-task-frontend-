@@ -5,7 +5,7 @@
 ## note : After Launching the demo, please refresh once if found unresponsive.
 
 ## Screenshot
-<img src="src/assets/edtechapp.png" width="800"><br><img src="src/screenshot1.png" width="600">
+<img src="src/assets/edtechapp.png" width="800">
 
 # Tech Used
 ### 1.React
