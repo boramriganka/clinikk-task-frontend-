@@ -12,7 +12,6 @@ const Container = styled.div`
   align-items: center;
   flex-wrap:wrap;
   justify-content: space-between;
-  position: absolute;
   padding: 1.5rem 0;
    margin:30px;
   width:  ${(window.innerWidth * 50) / window.innerHeight}px;
@@ -30,6 +29,7 @@ const Container = styled.div`
     justify-content:center;
     align-items:center;
     height:200px;
+    padding:1rem;
       border-radius:0;
       margin:0;
       
