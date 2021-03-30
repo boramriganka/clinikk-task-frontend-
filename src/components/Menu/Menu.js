@@ -24,7 +24,7 @@ const Container = styled.div`
   box-shadow: 12px 12px 32px rgba(13, 39, 80, 0.25), -10px -10px 15px white;
    @media (max-width: 768px) {
     display:flex;
-    width: 100%;
+    width:  ${window.innerWidth}px;
     flex-direction:row;
     flex-wrap:wrap;
     justify-content:center;
@@ -66,9 +66,7 @@ const LogoContainer = styled.div`
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  height: 45%;
-  left: 32.34px;
-  top: 24.02px;
+  height: 100%;
   border-radius: 24px;
   /* Black */
 
@@ -91,12 +89,17 @@ const BottomContainer = styled.div`
     flex-direction: row;
     flex-wrap: wrap;
     height: 40px;
+    backgroud-color:#0c0b0b;
   }
 `;
 const Logo = styled.div`
-    height:1rem;
-    width:1rem;
-`
+  height: 1rem;
+  width: 15%;
+  @media (max-width: 768px) {
+    margin:1rem;
+    padding:1rem;
+  }
+`;
 function Menu() {
     return (
       <Container>
