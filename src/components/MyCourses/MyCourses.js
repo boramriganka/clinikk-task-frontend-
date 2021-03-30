@@ -18,9 +18,9 @@ const Container = styled.div`
   margin-top: 20px;
   background-color: #e5e5e7;
   @media (max-width: 768px) {
-   padding: 1rem;
-    margin:2rem 0;
-    
+    padding:1rem 2.5rem;
+    margin-right: 2rem;
+    boder-radius:8px;
   }
 `;
 const Flag = styled.div`
