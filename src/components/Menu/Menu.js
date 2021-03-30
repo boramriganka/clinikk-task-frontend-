@@ -24,7 +24,7 @@ const Container = styled.div`
   box-shadow: 12px 12px 32px rgba(13, 39, 80, 0.25), -10px -10px 15px white;
    @media (max-width: 768px) {
     display:flex;
-    width:  ${window.innerWidth}px;
+    width:  auto;
     flex-direction:row;
     flex-wrap:wrap;
     justify-content:center;
