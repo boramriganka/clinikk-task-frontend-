@@ -76,6 +76,7 @@ const LogoContainer = styled.div`
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
+    padding:1rem;
   }
 `;
 const BottomContainer = styled.div`
