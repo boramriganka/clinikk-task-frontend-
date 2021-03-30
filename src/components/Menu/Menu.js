@@ -28,7 +28,7 @@ const Container = styled.div`
     flex-wrap:wrap;
     justify-content:center;
     align-items:center;
-    height:200px;
+    height:250px;
     padding:1rem;
       border-radius:0;
       margin:0;
