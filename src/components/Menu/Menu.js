@@ -12,6 +12,7 @@ const Container = styled.div`
   align-items: center;
   flex-wrap:wrap;
   justify-content: space-between;
+  position: absolute;
   padding: 1.5rem 0;
    margin:30px;
   width:  ${(window.innerWidth * 50) / window.innerHeight}px;
@@ -28,8 +29,7 @@ const Container = styled.div`
     flex-wrap:wrap;
     justify-content:center;
     align-items:center;
-    height:250px;
-    padding:1rem;
+    height:auto;
       border-radius:0;
       margin:0;
       
@@ -76,7 +76,6 @@ const LogoContainer = styled.div`
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
-    padding:1rem;
   }
 `;
 const BottomContainer = styled.div`
@@ -98,7 +97,8 @@ const Logo = styled.div`
   width: 15%;
   @media (max-width: 768px) {
     margin:1rem;
-    padding:1rem;
+    width:20%
+    height:20%;
   }
 `;
 function Menu() {
